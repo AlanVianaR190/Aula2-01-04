@@ -57,7 +57,7 @@
         android:layout_marginStart="41dp"
         android:layout_marginTop="50dp"
         android:onClick="cadastrar"
-        android:text="@string/txt.cadastrar"
+        android:text="@string/txt_cadastrar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextSalario" />
 
@@ -68,7 +68,7 @@
         android:layout_marginStart="7dp"
         android:layout_marginTop="84dp"
         android:layout_marginBottom="79dp"
-        android:text="@string/txt.re"
+        android:text="@string/txt_re"
         app:layout_constraintBottom_toTopOf="@+id/textView5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -79,7 +79,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="7dp"
         android:layout_marginTop="182dp"
-        android:text="@string/txt.nome"
+        android:text="@string/txt_nome"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -89,7 +89,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="7dp"
         android:layout_marginBottom="1dp"
-        android:text="@string/txt.dataadm"
+        android:text="@string/txt_dataadmissao"
         app:layout_constraintBottom_toBottomOf="@+id/editTextDataAdmissao"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -99,7 +99,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="3dp"
         android:layout_marginTop="60dp"
-        android:text="@string/txt.salario"
+        android:text="@string/txt_salario"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextDataAdmissao" />
 
@@ -110,7 +110,7 @@
         android:layout_marginStart="43dp"
         android:layout_marginTop="44dp"
         android:onClick="cadastrar"
-        android:text="@string/txt_alterar"
+        android:text="alterar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 
@@ -121,7 +121,7 @@
         android:layout_marginEnd="3dp"
         android:layout_marginBottom="44dp"
         android:onClick="buscar"
-        android:text="@string/txt_buscar"
+        android:text="buscar"
         app:layout_constraintBottom_toTopOf="@+id/button6"
         app:layout_constraintEnd_toEndOf="@+id/button6" />
 
@@ -132,7 +132,7 @@
         android:layout_marginTop="42dp"
         android:layout_marginEnd="96dp"
         android:onClick="cadastrar"
-        android:text="@string/txt_excluir"
+        android:text="excluir"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

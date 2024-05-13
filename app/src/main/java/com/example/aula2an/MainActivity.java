@@ -20,7 +20,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void abrirDataBase(View view) {
-        Intent intent = new Intent(this, DataBaseActivity.class);
+        Intent intent = new Intent(this, DatabaseActivity.class);
+        startActivity(intent);
+    }
+
+    public void abrirDesenho(View view) {
+        Intent intent = new Intent(this, DesenhoActivity.class);
         startActivity(intent);
     }
 }
